@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+android:padding="20dp"
+    android:layout_height="match_parent"
+    tools:context=".example1">
+
+
+    <EditText
+        android:id="@+id/numObjectsInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+    android:hint="Number of Objects" />
+
+    <!-- EditText fields for width, height, and depth inputs -->
+    <EditText
+        android:id="@+id/widthInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Width" />
+
+    <EditText
+        android:id="@+id/heightInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Height" />
+
+    <EditText
+        android:id="@+id/depthInput"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:hint="Depth" />
+
+    <!-- EditText fields for area width, area height, and area depth inputs -->
+    <EditText
+        android:id="@+id/areaWidthInput"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Area Width" />
+
+    <EditText
+        android:id="@+id/areaHeightInput"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Area Height" />
+
+    <EditText
+        android:id="@+id/areaDepthInput"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Area Depth" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:background="@drawable/rounded_edittext_background"
+        android:layout_height="wrap_content"
+        android:text="Calculate" />
+
+
+    <ImageView
+        android:id="@+id/previewImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img1"
+        android:visibility="gone"
+        />
+
+
+
+
+</LinearLayout>

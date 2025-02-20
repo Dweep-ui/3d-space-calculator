@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".example4">
+    <EditText
+        android:id="@+id/objectQuantityEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Object Quantity"/>
+
+    <HorizontalScrollView
+        android:id="@+id/objectScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/objectQuantityEditText">
+
+        <LinearLayout
+            android:id="@+id/objectLinearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- Dynamically add object input fields here -->
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <EditText
+        android:id="@+id/areaLengthEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/objectScrollView"
+        android:hint="Area Length"/>
+
+    <EditText
+        android:id="@+id/areaWidthEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/areaLengthEditText"
+        android:hint="Area Width"/>
+
+    <EditText
+        android:id="@+id/areaHeightEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/areaWidthEditText"
+        android:hint="Area Height"/>
+
+    <Button
+        android:id="@+id/generateGraphButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/areaHeightEditText"
+        android:text="Generate Graph"/>
+
+    <ImageView
+        android:id="@+id/graphImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/generateGraphButton"
+        android:src="@drawable/img1"
+        android:visibility="gone"/>
+</RelativeLayout>

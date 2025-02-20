@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background_gradient"
+    android:layout_height="match_parent"
+    tools:context=".UserProfileActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/nottt"
+        android:layout_width="146dp"
+        android:layout_height="134dp"
+        android:layout_row="1"
+        android:background="@drawable/rounded_edittext_background"
+        android:layout_column="0"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        app:cardElevation="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.543"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.842">
+
+        <ImageView
+            android:id="@+id/not"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/circle_purple"
+            android:padding="15dp"
+            android:paddingLeft="15dp"
+            android:src="@drawable/im2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:fontFamily="times"
+            android:padding="5dp"
+            android:text="Adjustment"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/doytb"
+        android:layout_width="145dp"
+        android:layout_height="139dp"
+        android:layout_row="0"
+        android:background="@drawable/rounded_edittext_background"
+        android:layout_column="1"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        app:cardElevation="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.537">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/circle_yellow"
+            android:padding="15dp"
+            android:paddingLeft="15dp"
+            android:src="@drawable/im1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:fontFamily="times"
+            android:padding="5dp"
+            android:text="Conversion"
+            android:textColor="@color/textColor"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:layout_width="224dp"
+        android:layout_height="182dp"
+        android:src="@drawable/img1"
+        android:background="@drawable/rounded_edittext_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.114" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

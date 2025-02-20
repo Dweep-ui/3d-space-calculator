@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name" translatable="false">3D Space Calculator</string>
+    <string name="facebook_app_id" translatable="false">251765927330845</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb1234</string>
+    <string name="facebook_client_token" translatable="false">56789</string>
+
+</resources>

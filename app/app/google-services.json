@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "871286598704",
+    "project_id": "d-space-calculator",
+    "storage_bucket": "d-space-calculator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871286598704:android:b6761a7b9ce2cd9da011f5",
+        "android_client_info": {
+          "package_name": "com.example.a3dspacecalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871286598704-tfm6p050pflu6rt503sqtma98jd8tips.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoDO1YYq9DhpxHhBuI9yc71kvwMi4P74I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871286598704-tfm6p050pflu6rt503sqtma98jd8tips.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
